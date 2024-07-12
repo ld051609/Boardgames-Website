@@ -41,3 +41,15 @@
     font-size: 40px;
     font-weight: bolder;
 }
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align items to the start */
+        padding: 10px;
+    }
+
+    .link {
+        margin: 10px 0;
+        display: block;
+    }
+}

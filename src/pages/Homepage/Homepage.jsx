@@ -4,6 +4,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../../components/Navbar/Navbar';
 import styles from './Homepage.module.css';
+import Footer from '../../components/Footer/Footer';
 
 const Homepage = () => {
     return (
@@ -47,7 +48,7 @@ const Homepage = () => {
                             <p className={styles.subheading3}>Check out our upcoming shop events and game nights.</p>
                         </div>
                     </Link>
-                    <Link to="/boardgames" className={styles.timelineItem}>
+                    <Link to="https://docs.google.com/spreadsheets/d/1-TOvwUh-ziCB6QmLYvQlxtXuBd-aGiiO72GWAasby8o/edit?usp=sharing" className={styles.timelineItem}>
                         <div className={styles.timelineContent}>
                             <h3 className={styles.heading3}>Discover Board Games</h3>
                             <p className={styles.subheading3}>An extensive collection of board games for all ages and interests.</p>
@@ -67,7 +68,7 @@ const Homepage = () => {
                 </div>
 
             </div>
-
+        <Footer />
         </div>
     );
 };

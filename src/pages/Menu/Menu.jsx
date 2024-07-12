@@ -15,6 +15,7 @@ import NuggetModel from '../../components/DrinkModel/NuggetModel';
 import BeerModel from '../../components/DrinkModel/BeerModel';
 import SandwichModel from '../../components/DrinkModel/SandwichModel';
 import SeasonalModel from '../../components/DrinkModel/SeasonalModel';
+import Footer from '../../components/Footer/Footer';
 const Menu = () => {
     const [activeIcon, setActiveIcon] = useState(coffeeIcon);
 
@@ -69,7 +70,9 @@ const Menu = () => {
                     style={{ background: activeIcon === seasonalIcon ? "#ccc" : '' }}
                     />
             </div>
-            <hr />
+            <div className={styles.horizontalLine}>
+                <hr />
+            </div>
             {
                 activeIcon == latteIcon && (
                     <div className={styles.drinkModelContainer}>
@@ -505,6 +508,7 @@ const Menu = () => {
                     </>
                 )}
             </div>
+        <Footer />
         </div>
     );
 };

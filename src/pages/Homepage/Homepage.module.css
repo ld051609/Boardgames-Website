@@ -151,66 +151,66 @@
 
 @media (max-width: 768px) {
     .aboutSection {
-        flex-direction: column; /* Stack items vertically on smaller screens */
-        gap: 20px; /* Reduce gap between items */
+        flex-direction: column; 
+        gap: 20px;
     }
 
     .textSection {
-        max-width: 100%; /* Adjust to full width on smaller screens */
-        text-align: center; /* Center text on smaller screens */
+        max-width: 100%; 
+        text-align: center; 
     }
 
     .heading {
-        font-size: 2.5rem; /* Decrease font size for smaller screens */
+        font-size: 2.5rem; 
     }
 
     .subHeading {
-        font-size: 24px; /* Decrease font size for smaller screens */
+        font-size: 24px; 
     }
 
     .paragraph {
-        font-size: 14px; /* Maintain font size */
+        font-size: 14px; 
     }
 
     .image {
-        max-width: 100%; /* Ensure images fit within smaller screens */
+        max-width: 100%; 
     }
 
     .timelineHeading {
-        font-size: 2rem; /* Decrease font size for smaller screens */
+        font-size: 2rem; 
     }
 
     .openingHeading {
-        font-size: 2rem; /* Decrease font size for smaller screens */
+        font-size: 2rem; 
     }
 
     .openingDes {
-        font-size: 1rem; /* Decrease font size for smaller screens */
-        margin-left: 0; /* Remove left margin */
+        font-size: 1rem; 
+        margin-left: 0; 
     }
 
     .openingSub {
-        font-size: 0.9rem; /* Decrease font size for smaller screens */
-        text-align: center; /* Center text on smaller screens */
-        padding: 10px; /* Reduce padding for smaller screens */
+        font-size: 0.9rem; 
+        text-align: center; 
+        padding: 10px; 
     }
 }
 
 @media (max-width: 480px) {
     .heading {
-        font-size: 2rem; /* Further decrease font size for smaller screens */
+        font-size: 2rem; 
     }
 
     .subHeading {
-        font-size: 20px; /* Further decrease font size for smaller screens */
+        font-size: 20px; 
     }
 
     .paragraph {
-        font-size: 13px; /* Further decrease font size for smaller screens */
+        font-size: 13px; 
     }
 
     .openingHeading {
-        font-size: 1.5rem; /* Decrease font size for smaller screens */
+        font-size: 1.5rem; 
     }
 }
 

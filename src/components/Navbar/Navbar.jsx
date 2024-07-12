@@ -6,10 +6,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Navbar = () => {
     return (
         <div className={styles.container}>
-            <Link to="/" className={styles.logoLink}>
+            <Link to="/" className={styles.link}>
                 <FontAwesomeIcon icon={faHome} className={styles.logoIcon} />
             </Link>
-            <Link to="/about" className={styles.link}>ABOUT</Link>
             <Link to="/reservations" className={styles.link}>RESERVATIONS</Link>
             <Link to="/event" className={styles.link}>EVENTS CALENDAR</Link>
             <Link to="/menu" className={styles.link}>MENU</Link>

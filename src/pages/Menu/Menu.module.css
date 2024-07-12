@@ -8,17 +8,21 @@
     display: flex;
     gap: 50px;
     margin: 20px 50px;
-    background-color: #3c3c3c;
+    background-color: #222222;
     border-radius: 50px;
     align-items: center;
     padding: 25px 0;
     padding-top: 15px;
 
 }
+.h3Tag{
+    font-size: 20px;
+    color: #fff;
 
+}
 .menuItem {
     min-width: 200px; /* Minimum width for each item */
-    border-radius: 10px;
+    border-radius: 40px;
     cursor: pointer;
     text-align: center; /* Center align text */
     display: flex;
@@ -74,10 +78,12 @@
     background-color: #cccccc93;
     border: transparent;
 }
-hr{
-    width: 100%;
-    border: 1px solid #95949488;
-    margin: 50px 20px;
+.horizontalLine{
+    margin: 30px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .pTag{
     font-size: 12px;
@@ -89,16 +95,7 @@ hr{
     align-items: center;
     
 }
-.descriptionBadge {
-    position: absolute;
-    top: 20px; /* Adjust position as needed */
-    left: 20px; /* Adjust position as needed */
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    z-index: 100;
-}
+
 
 .descriptionTitle {
     font-size: 18px;
@@ -109,4 +106,108 @@ hr{
 .descriptionText {
     font-size: 14px;
     line-height: 1.5;
+}
+.weeklySub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+@media (max-width: 1024px) {
+    .menuList {
+        gap: 30px;
+    }
+
+    .menuItem {
+        min-width: 180px;
+    }
+
+    .icon {
+        height: 80px;
+    }
+
+    .h3Tag {
+        font-size: 18px;
+    }
+
+    .descriptionTitle {
+        font-size: 16px;
+    }
+
+    .descriptionText {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .menuList {
+        margin: 20px auto;
+        padding: 20px 0;
+    }
+
+    .menuItem {
+        min-width: 150px;
+        margin: 15px;
+    }
+
+    .icon {
+        height: 70px;
+        padding: 10px;
+    }
+
+    .h3Tag {
+        font-size: 16px;
+    }
+
+    .descriptionTitle {
+        font-size: 14px;
+    }
+
+    .descriptionText {
+        font-size: 12px;
+    }
+
+    hr {
+        margin: 30px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .menuList {
+        gap: 20px;
+        margin: 15px auto;
+        padding: 15px 0;
+    }
+
+    .menuItem {
+        min-width: 120px;
+        margin: 10px;
+    }
+
+    .icon {
+        height: 60px;
+        padding: 8px;
+    }
+
+    .h3Tag {
+        font-size: 14px;
+    }
+
+    .descriptionTitle {
+        font-size: 12px;
+    }
+
+    .descriptionText {
+        font-size: 11px;
+    }
+
+    hr {
+        margin: 20px 5px;
+    }
+
+    .container {
+        padding: 10px;
+    }
 }
