@@ -1,0 +1,112 @@
+.container{
+    overflow: hidden;
+}
+
+
+.menuList {
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    display: flex;
+    gap: 50px;
+    margin: 20px 50px;
+    background-color: #3c3c3c;
+    border-radius: 50px;
+    align-items: center;
+    padding: 25px 0;
+    padding-top: 15px;
+
+}
+
+.menuItem {
+    min-width: 200px; /* Minimum width for each item */
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center; /* Center align text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    row-gap: 5px;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 20px;
+}
+.menuList::-webkit-scrollbar {
+    display: none; 
+}
+.menuItem:hover{
+    background-color: #fffcfc50;
+    border: 1px solid #ccc;
+}
+.drinkModelContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.menuIcons{
+    margin: 30px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: auto;
+    gap: 50px;
+    padding: 20px 0
+
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: auto;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    border: 2px dotted #ccc;
+    border-radius: 50%;
+    padding: 15px;
+
+}
+.icon:hover{
+    transform: scale(1.1);
+    background-color: #cccccc93;
+    border: transparent;
+}
+hr{
+    width: 100%;
+    border: 1px solid #95949488;
+    margin: 50px 20px;
+}
+.pTag{
+    font-size: 12px;
+}
+.sizeTag{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    align-items: center;
+    
+}
+.descriptionBadge {
+    position: absolute;
+    top: 20px; /* Adjust position as needed */
+    left: 20px; /* Adjust position as needed */
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.descriptionTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.descriptionText {
+    font-size: 14px;
+    line-height: 1.5;
+}
