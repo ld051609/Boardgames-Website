@@ -36,7 +36,7 @@ const Homepage = () => {
                             <p className={styles.subheading3}>Discover a variety of coffees, boba drinks, sandwiches, and snacks.</p>
                         </div>
                     </Link>
-                    <Link to="/reservation" className={styles.timelineItem}>
+                    <Link to="/reservations" className={styles.timelineItem}>
                         <div className={styles.timelineContent}>
                             <h3 className={styles.heading3}>Reserve Your Table</h3>
                             <p className={styles.subheading3}>Book a table for your next game night hassle-free.</p>

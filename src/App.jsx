@@ -4,6 +4,7 @@ import Homepage from './pages/Homepage/Homepage'
 import Menu from './pages/Menu/Menu'  
 import Events from './pages/Events/Events'
 import Reservations from './pages/Reservations/Reservations'
+import NotFound from './page404'
 const App = () => {
   return (
     <div>
@@ -14,7 +15,7 @@ const App = () => {
           <Route path="/event" element={<Events />} />
           <Route path="/reservations" element={<Reservations />} />
 
-          <Route path="*" element={<div>Not Found</div>} />          
+          <Route path="*" element={<NotFound/>} />          
         </Routes>
       </BrowserRouter>
     </div>
