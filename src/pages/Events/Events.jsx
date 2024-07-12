@@ -52,7 +52,7 @@ const Events = () => {
 
       <div className={styles.blockContainer}>
         <div className={styles.block1}>
-            <h1 className={styles.blockHeading}>Top 8 Prizes & Participation Promo</h1>
+            <h3 className={styles.blockHeading}>Top 8 Prizes & Participation Promo</h3>
             <ul>
                 <li>Top 8 receive store credit and promos.</li>
                 <li>First 32 registrants get a Springleaf Drum.</li>
@@ -60,7 +60,7 @@ const Events = () => {
             </ul>
         </div>
         <div className={styles.block2}>
-            <h1 className={styles.blockHeading}>Competitive Event Details</h1>
+            <h3 className={styles.blockHeading}>Competitive Event Details</h3>
             <ul>
                 <li>Competitive REL event.</li>
                 <li>Staffed by a Level 2 Judge and a Store Tournament Organizer.</li>
@@ -70,7 +70,7 @@ const Events = () => {
         </div>
 
         <div className={styles.block3}>
-            <h1 className={styles.blockHeading}>Example Prizing Structure for 32 Players</h1>
+            <h3 className={styles.blockHeading}>Example Prizing Structure for 32 Players</h3>
             <ul> 
                 <li><strong>1st Place:</strong> $250 Travel Stipend + Foil Goblin Guide + Non-Foil Goblin Guide + Regional Championship Invitation.</li>
                 <li><strong>2nd Place:</strong> $200 Store Credit + Non-Foil Goblin Guide.</li>
